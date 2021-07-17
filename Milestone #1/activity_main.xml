@@ -1,0 +1,374 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/tvb5p"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/imgbook6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bodyback2">
+
+            <TextView
+                android:id="@+id/tvheading"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/headbak2"
+                android:text="BookStore"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/imgBook1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgBook1"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="59dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@android:dimen/app_icon_size"
+                app:srcCompat="@drawable/i" />
+
+            <TextView
+                android:id="@+id/tvB1T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Harry Potter"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteY="308dp" />
+
+
+
+            <TextView
+                android:id="@+id/tvB1P"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="341dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:background="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imgBook2"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                app:srcCompat="@drawable/viii" />
+
+            <TextView
+                android:id="@+id/tvB2T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="5dp"
+                android:text="To kill a Mocking Bird"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:background="@color/white"
+                 />
+
+            <TextView
+                android:id="@+id/tvB2P"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="341dp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:background="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imgBook3"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                app:srcCompat="@drawable/ii" />
+
+            <TextView
+                android:id="@+id/tvB3T"
+                android:layout_width="144dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:text="The Hobbit"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/tvB3P"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="500 INR"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:id="@+id/imgBook4"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                app:srcCompat="@drawable/ix" />
+
+            <TextView
+                android:id="@+id/tvb4t"
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="All The Light We cannot See"
+                android:textSize="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvB4P"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="608dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:background="@color/white"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imgbook5"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                app:srcCompat="@drawable/iii" />
+
+            <TextView
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvB5T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="The Flying Dragon"
+                android:textSize="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="608dp"
+                android:text="500 INR"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                app:srcCompat="@drawable/iv"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"/>
+
+            <TextView
+                android:id="@+id/tvb6t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bloom"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvb6p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:layout_marginTop="5dp"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="608dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imgbook7"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                app:srcCompat="@drawable/v"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size" />
+
+            <TextView
+                android:id="@+id/tvb7t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Something Nasty In The Woodshed"
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tb7p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="608dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imgbook8"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                app:srcCompat="@drawable/x"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"/>
+
+            <TextView
+                android:id="@+id/tvb8t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Wolves"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvb8p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:layout_marginTop="5dp"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="608dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imgbook9"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                app:srcCompat="@drawable/vi"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"/>
+
+            <TextView
+                android:id="@+id/tvb9t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The Drift Wood Girls"
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvb9p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:layout_marginTop="5dp"
+                tools:layout_editor_absoluteX="238dp"
+                android:background="@color/white"
+                tools:layout_editor_absoluteY="608dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imgbook10"
+                android:layout_width="134dp"
+                android:layout_height="183dp"
+                app:srcCompat="@drawable/vii"
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"/>
+
+            <TextView
+                android:id="@+id/tvb10t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Rebirth"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="219dp"
+                tools:layout_editor_absoluteY="580dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvb10p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 INR"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="@android:dimen/app_icon_size"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="608dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
